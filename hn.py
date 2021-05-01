@@ -1,6 +1,6 @@
+import re
 import argparse
 import requests
-import re, time
 from concurrent.futures import ThreadPoolExecutor
 
 SELF_POSTS = re.compile('Ask HN|Show HN|Launch HN|Beware HN|Tell HN')
