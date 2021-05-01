@@ -1,4 +1,5 @@
-# hn.py - yet another 'Hacker News for the terminal' script
+# hn.py
+Yet another 'Hacker News for the terminal' script.
 Written in under 40 lines of Python. Based on the [Hacker News API](https://github.com/HackerNews/API).
 
 ## Usage
