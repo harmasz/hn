@@ -4,7 +4,7 @@ Written in under 40 lines of Python. Based on the [Hacker News API](https://gith
 ## Usage
 Clone this repo and run the script:
     
-    git clone
+    git clone https://github.com/harmasz/hn.git
     python hn.py [items]
 
 The script accepts an optional argument called 'items' - the amount of stories to fetch from HN.
