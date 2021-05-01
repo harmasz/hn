@@ -3,6 +3,7 @@ Written in under 40 lines of Python. Based on the [Hacker News API](https://gith
 
 ## Usage
 Clone this repo and run the script:
+    
     git clone
     python hn.py [items]
 
