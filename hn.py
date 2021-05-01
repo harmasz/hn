@@ -1,9 +1,6 @@
-import re
 import argparse
 import requests
 from concurrent.futures import ThreadPoolExecutor
-
-SELF_POSTS = re.compile('Ask HN|Show HN|Launch HN|Beware HN|Tell HN')
 
 def get_top_stories():
     response = requests.get('https://hacker-news.firebaseio.com/v0/topstories.json')
